@@ -37,6 +37,7 @@ Jupyter notebook with the full data analysis, data wrangling functions and comme
 online_shopping_analysis.html
 HTML version of the above notebook
 
+The blog post is available at: https://medium.com/p/139d0678fe03
 
 # Summary of results
 This analysis, based on descriptive statistics shows that there are different groups of users:
