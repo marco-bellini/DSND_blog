@@ -44,12 +44,12 @@ This analysis, based on descriptive statistics shows that there are different gr
 * frequent users order more during the week and the morning. They also order more often (within 7 days of the previous order)
 * infrequent users order more on evening and weekends and tend to order every week or so
 
-We note that this analysis was possible because of the very large dataset (3.4 orders with 200k individual users). With a smaller number of orders and users it may have been more difficult to draw conclusions, as the confidence intervals would have been larger. Additionally the assumption of independence and identical distribution of the experiments has not been verified
-
-
+We note that this analysis was possible because of the very large dataset (3.4 orders with 200k individual users).
 # Acknowledgements
 This project makes use of the dataset: “The Instacart Online Grocery Shopping Dataset 2017”, Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on 2019-04-01.
 The dataset is also available on Kaggle [2]
 
 [1] https://www.instacart.com/datasets/grocery-shopping-2017
 [2] [Kaggle Instacart competition](https://www.kaggle.com/c/instacart-market-basket-analysis)
+[3] https://www.statsmodels.org/dev/generated/statsmodels.stats.proportion.multinomial_proportions_confint.html
+
