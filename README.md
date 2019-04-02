@@ -29,10 +29,23 @@ In this project the online shopping data from Instacart [1] is analyzed. In part
 # Files
 The project requires the dataset from [1]. The files cannot be distributed on github but can be obtained from [1] or [2]. The archive file is unzipped in the current directory and comprises of several csv files. The description of the data files can be obtained at [2].
 
+The files I uploaded are:
 
+online_shopping_analysis.ipynb
+Jupyter notebook with the full data analysis, data wrangling functions and comments.
+
+online_shopping_analysis.html
+HTML version of the above notebook
 
 
 # Summary of results
+This analysis, based on descriptive statistics shows that there are different groups of users:
+
+* frequent users order more during the week and the morning. They also order more often (within 7 days of the previous order)
+* infrequent users order more on evening and weekends and tend to order every week or so
+
+We note that this analysis was possible because of the very large dataset (3.4 orders with 200k individual users). With a smaller number of orders and users it may have been more difficult to draw conclusions, as the confidence intervals would have been larger. Additionally the assumption of independence and identical distribution of the experiments has not been verified
+
 
 # Acknowledgements
 This project makes use of the dataset: “The Instacart Online Grocery Shopping Dataset 2017”, Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on 2019-04-01.
