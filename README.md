@@ -16,9 +16,6 @@ seaborn            0.8.1
 sklearn-pandas     1.8.0     
 Please pay attention especially to the version of scikit-learn due to changes in the library's organization
 
-
-libraries used, the motivation for the project, the files in the repository with a small description of each, a summary of the results of the analysis, and necessary acknowledgements. Students should not use another student's code to complete the project, but they may use other references on the web including StackOverflow and Kaggle to complete the project.
-
 # Motivation
 In this project the online shopping data from Instacart [1] is analyzed. In particular, the users are segmented into clusters (frequent and unfrequent users) and descriptive statistics is used to answer relevant business questions such as:
 
