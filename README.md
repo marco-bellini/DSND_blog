@@ -4,7 +4,7 @@ project for Udacity's DataScience NanoDegree program
 This repository contains the deliverables for the assignment "Write a Data Science Blog Post" of Udacity's DataScience NanoDegree program.
 I sincerely hope others may find the topic and techniques discussed helpful.
 
-# Library used
+# Libraries used
 The libraries used are:
 
 matplotlib         2.1.2     
